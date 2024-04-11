@@ -1,0 +1,51 @@
+.container_ran {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(34, 32, 32, 0.9);
+  color: white;
+  height: 100vh;
+  text-align: center;
+}
+.heading {
+  flex-basis: 15%;
+}
+.heading h1 {
+  margin: 20px;
+}
+.heading p {
+  margin: 20px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.form h1 {
+  margin: 10px;
+}
+.inp {
+  padding: 10px;
+  border-radius: 25px;
+  border: none;
+  margin: 8px 0;
+}
+.bttn {
+  padding: 10px;
+  border-radius: 25px;
+  margin: 10px;
+  border: none;
+  box-shadow: 2px 2px 5px rgb(83, 83, 83);
+}
+.result {
+  margin: 10px;
+  flex-basis: 25%;
+}
+.result p {
+  margin: 15px;
+}
+.newGame {
+  padding: 10px;
+  border-radius: 25px;
+  margin: 10px;
+}
